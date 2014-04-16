@@ -1,5 +1,4 @@
 class ReviewsController < ApplicationController
-end
 before_action :set_book
 
 def index
@@ -23,4 +22,5 @@ def review_params
 end
 def set_book
   @book = Book.find(params[:book_id])
+end
 end
