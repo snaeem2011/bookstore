@@ -1,16 +1,8 @@
-<h1>Books</h1>
-<p>Available as <%= formatted_time(@available_at) %></p>
-<%= page_entries_info @books %>
+<h1> Books </h1>
+<p> Available as of 3/18/2014</p>
 <ol>
-<% @books.each do |book| %>
-  <li>
-  <%= link_to(book.title, book) %>
-  by <%= book.author %><br/>
-  <%= format_average_stars(book) %>
-  <% if book.reviews.any? %>
-    (out of <%= pluralize(book.reviews.size, 'review') %>)
-  <% end %>
-</li>
-<% end %>
+	<li>Atlas Shrugged</li>
+	<li>Ender's Games</li>
+	<li>Hamlet</li>
+	<li>The Hobbit</li>
 </ol>
-<%= paginate @books %>

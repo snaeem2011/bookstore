@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Bookstore::Application.config.secret_key_base = 'f1275db6f64ad0cf7fcbf62c26bf3a8c8b71fdc86cacd76544c65e1b781e0ccd087046e884d54f979366101f6820456f76affc7baf19997b2deb846ccbecfe23'
+Bookstore::Application.config.secret_key_base = 'c19209037342fb52bc08228a12b1ffa343147d32910d005e19f1a5f887d30a8d7bfb686539eb0e697871c52b0f0cb10956859f80f9273fd9ab3bd8e6a6ac030b'
